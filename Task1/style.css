@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.HZ {
+  width: 80%;
+  margin:auto;
+  overflow:hidden;
+  }
+header {
+    margin:0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #3a4349;
+    border-bottom: 3px solid rgb(209, 81, 21);
+    color: white;
+  }
+  #orangetext {
+    color:#c95232;
+  }
+header h1{
+    float: left;
+}
+creater{
+    background-color: #c95232;
+}
+header nav{
+    float: right;
+    padding-top: 10px;
+}
+li{
+    padding-right: 25px;
+    display: inline;
+}
+
+li a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+.selectedlink a{
+    color:#c95232;
+}
+.motivation{
+    text-align: center;
+    background-image: url(img/2000x1333.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:auto;
+    height: 400px;
+    color: white;
+
+}
+.motivation h1{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+.motivation p{
+    font-size: 20px;
+}
+
+.subscribe{
+    padding: 32px;
+    color: white;
+    background-color: #3a4349;
+    
+}
+.subscribe p{
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+    padding-right: 680px;
+    padding-left: 160px;
+
+}
+input{
+    width: 250px;
+    border: 0;
+    padding: 10px 0px;
+    color: #000;
+  }
+button {
+    border: 0;
+    padding: 10px;
+    color:white;
+    background-color:#c95232;
+}
+
+
+footer{
+    padding: 27px;
+    background-color: #c95232;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.blocks{
+    display: flex;
+    padding-left: 186px;
+}   
+.box {
+    padding-left: 7px;
+    flex-direction: column;
+    height: 300px;
+    width: 450px;
+    float:left;
+    text-align: center;
+}
+.box img {
+    padding: 20px 0;
+}
+.box h3 {
+    font-size: 20px;
+    padding: 10px 0;
+}
+.box p {
+    padding: 10px 10px;
+}
+.container {
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+  }
+.about {
+    display: flex;
+    padding-bottom: 40px;
+  }
+.about div{
+    margin-top: 30px;
+    width: 65%;
+}
+  .about h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .about p {
+    width: 100%;
+    font-size: 17px;
+    padding: 10px 0px;
+    line-height: 23px;
+  }
+#whatwedo{
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color: #3a4349;
+    width: 30%;
+    color: white;
+    height: 180px;
+    line-height: 50px;
+    padding-right: 8px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+#whatwedo h3 {
+    font-size: 20px;
+  }
+#whatwedo p {
+    line-height: 23px;
+    font-size: 17px;
+  }
+#getquote{
+    margin-top: 15px;
+    margin-left: 1250px;
+    background-color: #3a4349;
+    width: 25%;
+    color: white;
+    height: 180px;
+    line-height: 50px;
+    padding-right: 0px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    padding-left:   10px;
+}
+#getquote h3 {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+#getquote p {
+    line-height: 23px;
+    font-size: 17px;
+  }
+#getquote input {
+    width: 300px;
+}
+#button {
+    width: 70px;
+}
+#button {
+    width: 70px;
+}
+#services-container{
+    height: 600px;
+}
+.services {
+    margin-left: 190px;
+    float:left;
+    margin-top: 5px;
+  }
+  .services h2 {
+    font-size: 21px;
+    padding: 10px 0px;
+  }
+  .serv-list {
+    height: 125px;
+    margin-bottom: 5px;
+    background:#e6e6e6;
+    padding-right: 45px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(173, 166, 166);
+  }
+  .serv-list h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0px;
+  }
+  .serv-list p {
+    font-size: 17px;
+    padding: 7px 0px;
+    line-height: 24px;
+  }
