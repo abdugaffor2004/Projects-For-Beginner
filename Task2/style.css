@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url("img/beta.jpg");
+    background-position:center;
+    background-size: 1600px;
+  }
+.container{
+    width: 80%;
+    margin: 180px auto;
+    background-color: rgb(19, 19, 37);
+    height: 660px;
+    width: 400px;        
+}
+#display{
+    margin-top: 8px;
+    background-color: rgb(19, 19, 37);
+    color: ghostwhite;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 8px;
+    width: 96%;
+    text-align: center;
+    height: 125px;
+    text-align: left;
+
+}
+#result{
+    border-top: 2px solid rgb(45, 45, 71);
+    color: ghostwhite;
+    font-weight: bold;
+    font-size: 36px;
+    background: rgb(19, 19, 37);
+    margin-top: 2px;
+    text-align: left;
+    height: 65px;
+    margin-left: 12px;
+    width: 94%;
+}
+.button{
+    margin-top: 12px;
+    margin-left: 6px;
+}
+.operation{
+    background-color:darkturquoise;
+    color: ghostwhite;
+    font-size: 30px;
+    border-radius: 16px;
+    margin-left: 16px;
+    width: 19%;
+    height: 75px;
+    
+    font-weight: bold;
+}
+.operation:hover{
+    background-color:rgba(0, 206, 209, 0.685);
+}
+.number{
+    background-color: rgb(36, 36, 56);
+
+    color: ghostwhite;
+
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 16px;
+    margin-left: 16px;
+    width: 19%;
+    height: 75px;
+}
+.number:hover{
+    background-color: rgba(36, 36, 56, 0.5);
+}

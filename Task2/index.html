@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+            <input type="text" readonly id="display" name="calculation">
+            <input type="text" readonly id="result" name="result">
+        <div class="button">
+            <button onclick="clean()"  class="operation" type="button">CE</button>
+            <button onclick="backspace()"  class="operation" type="button">←</button>
+            <button onclick="swap()"  class="operation" type="button">+/-</button>
+            <button onclick="show('%')"  class="operation" type="button">%</button>
+        </div>
+        <div class="button">
+            <button onclick="show('7')"  class="number" type="button">7</button>
+            <button onclick="show('8')"  class="number" type="button">8</button>
+            <button onclick="show('9')"  class="number" type="button">9</button>
+            <button onclick="show('/')"  class="operation" type="button">/</button>
+        </div>
+        <div class="button">
+            <button onclick="show('4')"  class="number" type="button">4</button>
+            <button onclick="show('5')"  class="number" type="button">5</button>
+            <button onclick="show('6')"  class="number" type="button">6</button>
+            <button onclick="show('*')"  class="operation" type="button">x</button>
+        </div>
+            <div class="button">
+                <button onclick="show('1')"  class="number" type="button">1</button>
+                <button onclick="show('2')"  class="number" type="button">2</button>
+                <button onclick="show('3')"  class="number" type="button">3</button>
+                <button onclick="show('-')"  class="operation" type="button">-</button>
+            </div>
+        <div class="button">
+            <button onclick="show('0')"  class="number" type="button">0</button>
+            <button onclick="dot()"  class="number" type="button">.</button>
+            <button onclick="calculate()"  class="operation" type="button">=</button>
+            <button onclick="show('+')"  class="operation" type="button">+</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
