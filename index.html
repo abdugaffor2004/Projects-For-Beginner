@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+            <input type="text" readonly id="display" name="calculation">
+            <input type="text" readonly id="result" name="result">
+        <div class="button">
+            <button onclick="clean()"  id="mod" class="operation" type="button" name="modular">CE</button>
+            <button onclick="backspace()"  id="mod" class="operation" type="button" name="modular">←</button>
+            <button onclick="swap()"  id="mod" class="operation" type="button" name="modular">+/-</button>
+            <button onclick="show('%')"  id="mod" class="operation" type="button" name="modular">%</button>
+        </div>
+        <div class="button">
+            <button onclick="show('7')"  id="mod" class="number" type="button" name="modular">7</button>
+            <button onclick="show('8')"  id="mod" class="number" type="button" name="modular">8</button>
+            <button onclick="show('9')"  id="mod" class="number" type="button" name="modular">9</button>
+            <button onclick="show('/')"  id="mod" class="operation" type="button" name="modular">/</button>
+        </div>
+        <div class="button">
+            <button onclick="show('4')"  id="mod" class="number" type="button" name="modular">4</button>
+            <button onclick="show('5')"  id="mod" class="number" type="button" name="modular">5</button>
+            <button onclick="show('6')"  id="mod" class="number" type="button" name="modular">6</button>
+            <button onclick="show('*')"  id="mod" class="operation" type="button" name="modular">X</button>
+        </div>
+            <div class="button">
+                <button onclick="show('1')"  id="mod" class="number" type="button" name="modular">1</button>
+                <button onclick="show('2')"  id="mod" class="number" type="button" name="modular">2</button>
+                <button onclick="show('3')"  id="mod" class="number" type="button" name="modular">3</button>
+                <button onclick="show('-')"  id="mod" class="operation" type="button" name="modular">-</button>
+            </div>
+        <div class="button">
+            <button onclick="show('0')"  id="mod" class="number" type="button" name="modular">0</button>
+            <button onclick="dot()"  id="mod" class="number" type="button" name="modular">.</button>
+            <button onclick="calculate()"  id="mod" class="operation" type="button" name="modular">=</button>
+            <button onclick="show('+')"  id="mod" class="plus" type="button" name="modular">+</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
