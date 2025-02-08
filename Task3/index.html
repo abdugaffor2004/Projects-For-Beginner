@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleHader.css">
+    <link rel="stylesheet" href="styleEnterdata.css">
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h5 id="data">Available Budget in <span class="month"></span> :</h5>
+            <h4 class="total-value">+ 0.00</h4>
+            <div class="income">
+                <h3>income</h3>
+                <p class="income-count">+ 0.00</p>
+            </div>
+            <div class="expenses">
+                <h3>expenses</h3>
+                <h2>---</h2>
+                <p class="expenses-count">- 0.00</p>
+            </div>
+        </div>
+    </header>
+    <div class="enter-data">
+        <select class="operetion">
+            <option value="1">+</option>
+            <option value="2">-</option>
+        </select>
+        <input class="name-product" type="text" placeholder="Add description">
+            <input class="cost" type="number"  placeholder="Value">
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

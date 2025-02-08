@@ -1,0 +1,56 @@
+.enter-data{
+    width: auto;
+    height: 75px;
+    background-color:rgba(182, 172, 172,     0.13);
+    border: 1px solid rgba(182, 172, 172, 0.322);
+}
+.operetion{
+    margin-top: 15px;
+    width: 3%;
+    height: 45px;
+    margin-left: 34%;
+    font-size: 20px;
+    outline: none; 
+    border: 1px solid rgba(182, 172, 172, 0.322);
+}
+.operation option{
+    border: 0px
+}
+.operetion:focus {
+    border: 1px rgb(64, 159, 172) solid;
+}
+.name-product{
+    margin-left: 10px;
+    width: 20%;
+    /* width: 385px; */
+    height: 40px;   
+    font-size: 15px;
+    outline: none; 
+    padding-left: 10px;
+    border: 1px solid rgba(182, 172, 172, 0.322);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.name-product:focus{
+    border: 1px rgb(64, 159, 172) solid;
+}
+.cost{
+    padding-left: 10px;
+    margin-left: 10px;
+    width: 4.2%;
+    height: 40px;
+    font-size: 15px;
+    outline: none; 
+    border: 1px solid rgba(182, 172, 172, 0.322);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.cost:focus{
+    border: 1px rgb(64, 159, 172) solid;
+}
+.changed:focus {
+    border: 1px rgb(207, 56, 86) solid;
+}
+.default:focus {
+    border: 1px rgb(64, 159, 172) solid;
+}
