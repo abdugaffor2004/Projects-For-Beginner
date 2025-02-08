@@ -66,6 +66,7 @@ header{
     font-size: 18px;
 }
 .expenses h2{
+    text-align: center;
     padding-top: 6px;
     width: 36px;
     height: 18px;
