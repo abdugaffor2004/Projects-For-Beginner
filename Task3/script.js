@@ -75,13 +75,13 @@ nameProduct.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
         if (selectElement.value == "1") {
             income += parseInt(cost.value);
-            document.querySelector('.income-count').textContent = "+ " + income.toFixed(2);
+            document.querySelector('.income-count').textContent = "+" + income.toFixed(2);
             value += parseInt(cost.value);
             addNewIncome(styleIncome);
             styleIncome = !styleIncome;
         } else {
             expenses += parseInt(cost.value);
-            document.querySelector('.expenses-count').textContent = "- " + expenses.toFixed(2);
+            document.querySelector('.expenses-count').textContent = "-" + expenses.toFixed(2);
             value -= parseInt(cost.value);
             addNewExpenses(styleExpenses);
             styleExpenses = !styleExpenses;
@@ -90,8 +90,10 @@ nameProduct.addEventListener('keydown', function(event) {
 
         const costExpenses = document.getElementsByClassName('red-text');
         const procent = document.getElementsByClassName('procent');
+        const totalProcent =  document.querySelector('h2');
         for (let i = 0; i < procent.length; i++) {
-            procent[i].textContent = costExpenses[i].textContent;//потом доделаю проценты
+            procent[i].textContent = (-math.evaluate(costExpenses[i].textContent)/math.evaluate(document.querySelector('.income-count').textContent)*100).toFixed(0) + "%";
         }
+        totalProcent.textContent = (-math.evaluate(document.querySelector('.expenses-count').textContent)/math.evaluate(document.querySelector('.income-count').textContent)*100).toFixed(0) + "%";
     }
 });
