@@ -5,32 +5,20 @@ const cost = document.querySelector('.cost');
 let value = 0;
 let income = 0;
 let expenses = 0;
-
 //Функция изменения обводки полей ввода и выпадающего окна
-selectElement.addEventListener('change', function changeBorder() {
-    if (selectElement.value !== "1") {
-        selectElement.classList.add('changed');
-        selectElement.classList.remove('default');
-        nameProduct.classList.add('changed');
-        nameProduct.classList.remove('default');
-        cost.classList.add('changed');
-        cost.classList.remove('default');
-    } else {
-        selectElement.classList.add('default');
-        selectElement.classList.remove('changed');
-        nameProduct.classList.add('default');
-        nameProduct.classList.remove('changed');
-        cost.classList.add('default');
-        cost.classList.remove('changed');
-    }
+//Написал покроче но не через дата атрибуты, наверное можно было еще через обзий класс это сделать 
+//и достать все объекты класса и так же через мап сделать 
+let masForChangeBorder = [selectElement,nameProduct,cost]
+selectElement.addEventListener('change', () => {
+    (selectElement.value !== "1" ? 
+    masForChangeBorder.forEach( el => {el.classList.add('changed'); el.classList.remove('default')}) 
+    : masForChangeBorder.forEach( el => {el.classList.remove('changed'); el.classList.add('default')}))
 });
 
 //Функция изменения глобальной переменной в хедере
-function totalValueChange(value){
-    if(value>=0)
-        document.querySelector('.total-value').textContent = "+ " + value.toFixed(2);
-    else
-        document.querySelector('.total-value').textContent = "- " + Math.abs(value).toFixed(2);
+function totalValueChange(){
+    (value >=0 ? document.querySelector('.total-value').textContent = "+ " + value.toFixed(2) : 
+    document.querySelector('.total-value').textContent = "- " + Math.abs(value).toFixed(2))
 }
 
 //Фукнция добовления нового блока дохода
@@ -86,8 +74,7 @@ nameProduct.addEventListener('keydown', function(event) {
             addNewExpenses(styleExpenses);
             styleExpenses = !styleExpenses;
         }
-        totalValueChange(value);
-
+        totalValueChange();
         const costExpenses = document.getElementsByClassName('red-text');
         const procent = document.getElementsByClassName('procent');
         const totalProcent =  document.querySelector('h2');
