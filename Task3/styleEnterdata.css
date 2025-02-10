@@ -16,7 +16,10 @@
 .operation option{
     border: 0px
 }
-.operetion:focus {
+.operetion[data-border = "red"]:focus {
+    border: 1px rgb(207, 56, 86) solid;
+}
+.operetion[data-border = "blue"]:focus {
     border: 1px rgb(64, 159, 172) solid;
 }
 .name-product{
@@ -30,7 +33,10 @@
     border-radius: 5px;
     padding-top: 5px;
 }
-.name-product:focus{
+.name-product[data-border = "red"]:focus {
+    border: 1px rgb(207, 56, 86) solid;
+}
+.name-product[data-border = "blue"]:focus {
     border: 1px rgb(64, 159, 172) solid;
 }
 .cost{
@@ -44,16 +50,14 @@
     border-radius: 5px;
     padding-top: 5px;
 }
-.cost:focus{
-    border: 1px rgb(64, 159, 172) solid;
-}
-.changed:focus {
+.cost[data-border = "red"]:focus {
     border: 1px rgb(207, 56, 86) solid;
 }
-.default:focus {
+.cost[data-border = "blue"]:focus {
     border: 1px rgb(64, 159, 172) solid;
 }
 .enter-button {
+    color:white;
     margin-left: 10px;
     width: 5%;
     height: 45px;   
@@ -63,20 +67,16 @@
     border: 1px solid rgba(182, 172, 172, 0.322);
     border-radius: 5px;
     padding-top: 5px;
-    background-color: rgb(64, 159, 172, 0.452);
 }
-.enter-button:hover {
-    background-color: rgb(64, 159, 172);
+.enter-button[data-background="red"] {
+    background-color: rgba(207, 56, 86,  0.521);
 }
-.enter-button-changed {
-    background-color: rgba(207, 56, 86, 0.452);
-}
-.enter-button-changed:hover {
+.enter-button[data-background="red"]:hover {
     background-color: rgb(207, 56, 86);
 }
-.enter-button-default {
-    background-color: rgb(64, 159, 172, 0.452);
+.enter-button[data-background="blue"] {
+    background-color: rgb(64, 159, 172,  0.521);
 }
-.enter-button-default:hover {
+.enter-button[data-background="blue"]:hover {
     background-color: rgb(64, 159, 172);
 }

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styleHader.css">
     <link rel="stylesheet" href="styleEnterdata.css">
     <link rel="stylesheet" href="table.css">
-    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
     <title>Document</title>
 </head>
@@ -27,13 +27,13 @@
         </div>
     </header>
     <div class="enter-data">
-        <select class="operetion">
+        <select class="operetion" data-border="blue">
             <option value="1">+</option>
             <option value="2">-</option>
         </select>
-        <input class="name-product" type="text" placeholder="Add description">
-        <input class="cost" type="number"  placeholder="Value">
-        <button onclick="enterData()" class="enter-button">Enter</button>
+        <input class="name-product" type="text" placeholder="Add description" data-border="blue">
+        <input class="cost" type="number"  placeholder="Value" data-border="blue">
+        <button onclick="enterData()" class="enter-button" data-background="blue">Enter</button>
     </div>
     <section class="tables">
         <div class="table-income">
