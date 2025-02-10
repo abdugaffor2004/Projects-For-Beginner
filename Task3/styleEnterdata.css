@@ -1,0 +1,82 @@
+.enter-data{
+    width: auto;
+    height: 75px;
+    background-color:rgba(182, 172, 172,     0.13);
+    border: 1px solid rgba(182, 172, 172, 0.322);
+}
+.operetion{
+    margin-top: 15px;
+    width: 3%;
+    height: 45px;
+    margin-left: 34%;
+    font-size: 20px;
+    outline: none; 
+    border: 1px solid rgba(182, 172, 172, 0.322);
+}
+.operation option{
+    border: 0px
+}
+.operetion[data-border = "red"]:focus {
+    border: 1px rgb(207, 56, 86) solid;
+}
+.operetion[data-border = "blue"]:focus {
+    border: 1px rgb(64, 159, 172) solid;
+}
+.name-product{
+    margin-left: 10px;
+    width: 15%;
+    height: 40px;   
+    font-size: 15px;
+    outline: none; 
+    padding-left: 10px;
+    border: 1px solid rgba(182, 172, 172, 0.322);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.name-product[data-border = "red"]:focus {
+    border: 1px rgb(207, 56, 86) solid;
+}
+.name-product[data-border = "blue"]:focus {
+    border: 1px rgb(64, 159, 172) solid;
+}
+.cost{
+    padding-left: 10px;
+    margin-left: 10px;
+    width: 4.2%;
+    height: 40px;
+    font-size: 15px;
+    outline: none; 
+    border: 1px solid rgba(182, 172, 172, 0.322);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.cost[data-border = "red"]:focus {
+    border: 1px rgb(207, 56, 86) solid;
+}
+.cost[data-border = "blue"]:focus {
+    border: 1px rgb(64, 159, 172) solid;
+}
+.enter-button {
+    color:white;
+    margin-left: 10px;
+    width: 5%;
+    height: 45px;   
+    font-size: 15px;
+    outline: none; 
+    padding-left: 10px;
+    border: 1px solid rgba(182, 172, 172, 0.322);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.enter-button[data-background="red"] {
+    background-color: rgba(207, 56, 86,  0.521);
+}
+.enter-button[data-background="red"]:hover {
+    background-color: rgb(207, 56, 86);
+}
+.enter-button[data-background="blue"] {
+    background-color: rgb(64, 159, 172,  0.521);
+}
+.enter-button[data-background="blue"]:hover {
+    background-color: rgb(64, 159, 172);
+}

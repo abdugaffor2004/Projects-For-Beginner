@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:inherit;
+
+}
+
+header{
+    background-image: url("img/torre-del-diavolo-devils-tower-cadini-di-misurina-dolomites.jpg");
+    background-position:center;
+    background-size: auto;
+    width: auto;
+    height: 384px;
+}
+.head{
+    text-align: center;
+    color:blanchedalmond;
+}
+#data{
+    font-size: 20px;
+}
+.head h5{ 
+    padding-top: 82px; 
+    font-size: 40px;
+    font-weight: 5;
+}
+.head h4{
+    margin-top: 16px;
+    font-size: 50px;
+    font-weight: 5;
+}
+
+.expenses,
+.income{
+    margin: auto;
+    width: 350px;
+    height: 45px;
+}
+.expenses{
+    margin-top: 10px;
+    background-color: rgb(207, 56, 86);
+}
+.income{
+    margin-top: 20px;
+    background-color: aqua;
+}
+.expenses h3,
+.income h3{
+    margin-top: 16px;
+    float: left;
+    margin-left: 15px;
+    font-size: 12px;
+    color: black;
+    text-transform: uppercase;
+}
+.expenses p{
+    margin-top: 14px;
+    margin-right: 12px;
+    float: right;
+    font-size: 18px;
+}
+.income p{
+    margin-top: 14px;
+    margin-right: 60px;
+    float: right;
+    font-size: 18px;
+}
+.expenses h2{
+    text-align: center;
+    padding-top: 6px;
+    width: 36px;
+    height: 14px;
+    padding-bottom: 8px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+    font-size: 12px;
+    background-color: rgba(163, 92, 106, 0.589);
+    border-radius: 6px;
+}

@@ -1,0 +1,121 @@
+.tables{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    display: flex;
+}
+.table-income{
+    margin-left: 18%;
+    width: 30%;
+}
+.table-expenses{
+    width: 30%;
+    margin-left: 3%;
+}
+.name-table-income{
+    height: 50px;
+    color: #409fac;
+    font-size: 20px;
+    text-transform: uppercase;
+}    
+.name-table-expenses{
+    height: 50px;
+    color: rgb(207, 56, 86);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.new-div-gray{
+    overflow:hidden;
+    height: 50px;
+    background-color: rgba(109, 105, 105, 0.034);
+    /* border-top: 1px solid rgba(109, 105, 105, 0.377); */
+    /* border-bottom: 1px solid rgba(109, 105, 105, 0.377); */
+}    
+.new-div{
+    overflow:hidden;
+    height: 50px;
+    border-top: 1px solid rgba(109, 105, 105, 0.377);
+    border-bottom: 1px solid rgba(109, 105, 105, 0.377);
+}
+.new-div-gray p{
+    padding-top: 10px;
+    display: inline;
+}
+.new-div p {
+    padding-top: 10px;
+    display: inline;
+}
+.table-text{
+    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.blue-text{
+    color: #409fac;
+    font-size: 20px;
+    padding-right: 10px;
+    float: right;
+}
+.red-text{
+    color: rgb(207, 56, 86);
+    font-size: 20px;
+    margin-right: 10px;
+    float: right;
+}
+
+.procent{
+    text-align: center;
+    width: 36px;
+    height: 14px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+    float: right;
+    font-size: 12px;
+    background-color: rgba(163, 92, 106, 0.589);
+    border-radius: 6px;
+}
+.procent-and-text{
+    float: right;
+    margin-right: 10px;
+}
+.procent-and-text p {
+    padding-top: 10px;
+    display: inline;
+}
+.procent-and-text:hover{
+    margin-right: 30px;
+}
+.procent-and-text:hover .delete-expenses{
+    visibility: visible;
+}
+.procent-and-text:hover .delete-income{
+    visibility: visible;
+}
+.delete-expenses{
+    right: 25.3%;
+    border: none;
+    margin-top: 11px;
+    height: 30px;
+    width: 25px;
+    padding-left: 0px;
+    position: absolute;
+    visibility: hidden;
+    background: none;
+}
+.delete-income{
+    right: 52%;
+    border: none;
+    margin-top: 11px;
+    height: 30px;
+    width: 25px;
+    padding-left: 0px;
+    position: absolute;
+    visibility: hidden;
+    background: none;
+}
+.button-image {
+    margin-top: 2px;
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px;
+}
