@@ -21,8 +21,7 @@
 }
 .name-product{
     margin-left: 10px;
-    width: 20%;
-    /* width: 385px; */
+    width: 15%;
     height: 40px;   
     font-size: 15px;
     outline: none; 
@@ -53,4 +52,31 @@
 }
 .default:focus {
     border: 1px rgb(64, 159, 172) solid;
+}
+.enter-button {
+    margin-left: 10px;
+    width: 5%;
+    height: 45px;   
+    font-size: 15px;
+    outline: none; 
+    padding-left: 10px;
+    border: 1px solid rgba(182, 172, 172, 0.322);
+    border-radius: 5px;
+    padding-top: 5px;
+    background-color: rgb(64, 159, 172, 0.452);
+}
+.enter-button:hover {
+    background-color: rgb(64, 159, 172);
+}
+.enter-button-changed {
+    background-color: rgba(207, 56, 86, 0.452);
+}
+.enter-button-changed:hover {
+    background-color: rgb(207, 56, 86);
+}
+.enter-button-default {
+    background-color: rgb(64, 159, 172, 0.452);
+}
+.enter-button-default:hover {
+    background-color: rgb(64, 159, 172);
 }

@@ -53,7 +53,7 @@
 .blue-text{
     color: #409fac;
     font-size: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
     float: right;
 }
 .red-text{
@@ -62,22 +62,60 @@
     margin-right: 10px;
     float: right;
 }
-.blue-text:hover{
-    padding-right: 30px;
-}
+
 .procent{
-    color: rgb(207, 56, 86);
-    padding-bottom: 8px;
     text-align: center;
-    width: 30px;
-    height: 8px;
-    margin-right: 20px;
-    margin-top: 15px;
+    width: 36px;
+    height: 14px;
+    padding-bottom: 8px;
+    margin-top: 10px;
     float: right;
-    font-size: 14px;
+    font-size: 12px;
     background-color: rgba(163, 92, 106, 0.589);
     border-radius: 6px;
 }
-.procent:hover{
+.procent-and-text{
+    float: right;
+    margin-right: 10px;
+}
+.procent-and-text p {
+    padding-top: 10px;
+    display: inline;
+}
+.procent-and-text:hover{
     margin-right: 30px;
+}
+.procent-and-text:hover .delete-expenses{
+    visibility: visible;
+}
+.procent-and-text:hover .delete-income{
+    visibility: visible;
+}
+.delete-expenses{
+    right: 25.4%;
+    border: none;
+    margin-top: 11px;
+    height: 30px;
+    width: 25px;
+    padding-left: 0px;
+    position: absolute;
+    visibility: hidden;
+    background: none;
+}
+.delete-income{
+    right: 52%;
+    border: none;
+    margin-top: 11px;
+    height: 30px;
+    width: 25px;
+    padding-left: 0px;
+    position: absolute;
+    visibility: hidden;
+    background: none;
+}
+.button-image {
+    margin-top: 2px;
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px;
 }
